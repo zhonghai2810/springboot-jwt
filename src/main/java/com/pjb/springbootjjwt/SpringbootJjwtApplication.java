@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.pjb.springbootjjwt.mapper")
+//@MapperScan("com.pjb.springbootjjwt.mapper") // 在UserMapper上增加@Mapper就可以解决找不到bean candidate错误
 public class SpringbootJjwtApplication {
 
     public static void main(String[] args) {
